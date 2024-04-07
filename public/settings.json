@@ -1,0 +1,48 @@
+[
+    {
+        "workbench.colorTheme": "Min Dark",
+        "workbench.iconTheme": "symbols",
+        "workbench.startupEditor": "newUntitledFile",
+        "workbench.editor.labelFormat": "short",
+        "workbench.activityBar.location": "hidden",
+        "workbench.statusBar.visible": false,
+        "editor.fontSize": 14,
+        "editor.lineHeight": 1.8,
+        "editor.fontFamily": "Jetbrains Mono",
+        "editor.fontLigatures": true,
+        "editor.rulers": [100, 140],
+        "editor.renderLineHighlight": "gutter",
+        "explorer.compactFolders": false,
+        "explorer.fileNesting.enabled": true,
+        "editor.semanticHighlighting.enabled": false,
+        "editor.minimap.enabled": false,
+        "editor.scrollbar.horizontal": "hidden",
+        "breadcrumbs.enabled": false,
+        "console-ninja.featureSet": "Community",
+        "terminal.integrated.env.windows": {},
+        "symbols.hidesExplorerArrows": false,
+        "window.commandCenter": false,
+        "workbench.layoutControl.enabled": false,
+        "apc.font.family": "Inter",
+        "apc.electron": {
+        "titleBarStyle": "hiddenInset"
+        },
+        "apc.header": {
+        "height": 36
+        },
+        "apc.listRow": {
+        "height": 24
+        },
+        "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".editor-actions": "display: none",
+        ".pane-body": "padding: 8px"
+        },
+        "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+        "tailwind.config.js": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*"
+        }
+    }
+]
